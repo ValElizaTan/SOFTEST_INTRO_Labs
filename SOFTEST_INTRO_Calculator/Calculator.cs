@@ -190,8 +190,7 @@ public class Calculator
     }
 
     /*  Lab 3 Part II Starts Here   */
-    public double GenMagicNum(
- int choice, string path, IFileReader fileReader)
+    public double GenMagicNum(int choice, string path, IFileReader fileReader)
     {
         ArgumentNullException.ThrowIfNull(fileReader);
         if (choice < 0)
